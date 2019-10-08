@@ -1,0 +1,16 @@
+{
+  "name": "optimized-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "remove": "cd processed && rm *",
+    "process": "node resize.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.8.4"
+  }
+}
